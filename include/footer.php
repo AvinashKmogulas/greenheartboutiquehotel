@@ -821,8 +821,8 @@ form.addEventListener('submit', e => {
         // fetch(scriptURL, { method: 'POST', body: new FormData(form)});
 	    fetch(scriptURL, { method: "POST", body: new FormData(form) });
 		
-		// var loc = 'https://hotels.cloudbeds.com/en/reservation/NC3rR2/?currency=usd&checkin=' + arrive + "&checkout=" + depart;
-    //    window.open(loc);
+		var loc = 'https://hotels.cloudbeds.com/en/reservation/NC3rR2/?currency=usd&checkin=' + arrive + "&checkout=" + depart;
+       window.open(loc);
 	});
 });
 
