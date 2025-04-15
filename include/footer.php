@@ -731,14 +731,14 @@ form.addEventListener('submit', e => {
     }
 
     var fullDate = new Date();
-    var twoDigitMonth =
-      fullDate.getMonth().length + 1 === 1
-        ? fullDate.getMonth() + 1
-        : "0" + (fullDate.getMonth() + 1);
-    var currentDate =
-      fullDate.getDate() + "-" + twoDigitMonth + "-" + fullDate.getFullYear();
+    var day = ("0" + fullDate.getDate()).slice(-2);
+    var month = ("0" + (fullDate.getMonth() + 1)).slice(-2);
+    var year = fullDate.getFullYear();
 
-    $("#c_date").attr("value",currentDate);
+    var currentDate = day + "-" + month + "-" + year;
+    console.log(currentDate);
+    console.log(document.getElementById("contact_date"));
+    $("#contact_date").attr("value",currentDate);
 
     fetch(scriptURL, { method: 'POST', body: new FormData(form)});
     location.href = "nullamdictumfeliseupede.php?name="+name+"&email="+emailID+"&phone="+phone+"&message="+message+"&subject="+subject;
@@ -821,8 +821,8 @@ form.addEventListener('submit', e => {
         // fetch(scriptURL, { method: 'POST', body: new FormData(form)});
 	    fetch(scriptURL, { method: "POST", body: new FormData(form) });
 		
-		var loc = 'https://hotels.cloudbeds.com/en/reservation/NC3rR2/?currency=usd&checkin=' + arrive + "&checkout=" + depart;
-       window.open(loc);
+		 var loc = 'https://hotels.cloudbeds.com/en/reservation/NC3rR2/?currency=usd&checkin=' + arrive + "&checkout=" + depart;
+        window.open(loc);
 	});
 });
 
