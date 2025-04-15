@@ -1,0 +1,652 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+ -webkit-appearance: none;
+ margin: 0;
+}
+
+input[type=number] {
+ -moz-appearance: textfield;
+}
+
+.site-header {
+ position: absolute;
+ left: 0;
+ right: 0;
+ top: 0;
+ z-index: 9;
+ background-color: rgba(0, 0, 0, 0.3);
+}
+
+.site-header .logo,
+.site-header .language-box,
+.navbar {
+ display: inline-block;
+ vertical-align: top;
+}
+
+.site-header .logo {
+ margin: 2px 0;
+}
+.site-header.is-sticky {
+    transition: .7s;
+    box-shadow: 1px 1px 10px 0px #00000036;
+    position: fixed;
+    z-index: 3;
+}
+
+
+
+.bg-white {
+ background: #fff;
+}
+
+.customar-img1 {
+ width: 100%;
+ z-index: 1;
+ position: relative;
+}
+
+.customer-img::before {
+ background-image: url(../images/customar_bg.webp);
+ position: absolute;
+ content: "";
+ top: -59px;
+ right: -67px;
+ max-width: 645px;
+ z-index: -2;
+ height: 479px;
+ width: 500px;
+ z-index: 1;
+}
+
+.service-experience {
+ background: #262626;
+ position: absolute;
+ right: 38px;
+ border-radius: 10px;
+ box-shadow: 0.907px 12.968px 20px 0px rgb(85 85 85 / 20%);
+ bottom: 0;
+ width: 418px;
+ bottom: -27px;
+ padding: 28px 0;
+ text-align: center;
+}
+
+.customer-img {
+ position: relative;
+}
+
+.service-experience h3 {
+ color: #fff;
+}
+
+.customar-padding {
+ padding-top: 120px;
+ padding-bottom: 100px;
+ background: #fafafa;
+ position: relative;
+}
+
+.customer-img .customar-img2 {
+ max-width: 340px;
+ position: absolute;
+ top: -60px;
+ right: -67px;
+ z-index: -1;
+ background: #c5a880;
+ height: 350px;
+ width: 340px;
+ border-radius: 6px;
+ z-index: 9;
+}
+
+.customer-caption {
+ padding-left: 96px;
+}
+
+a.btn.more-btn1 {
+ background: #0e2c14 !important;
+ color: #fff;
+}
+
+.p-0 {
+ padding-left: 0px;
+}
+
+.ftco-room-section .customer-img1.mb-120 {
+ margin-bottom: 30px;
+}
+
+.datepicker {
+ position: absolute;
+ z-index: 9999999999999;
+}
+
+.carousel-indicators button.active {
+ background: #0e2c14;
+}
+
+.carousel-indicators button {
+ border: 0px;
+ padding: 1px 15px;
+ margin: 2px;
+}
+
+.form-group.calendar-iocn i.fa.fa-calendar {
+ position: absolute;
+ right: 10px;
+ bottom: 22px;
+ color: #0e2c14;
+ pointer-events: none;
+}
+
+.form-group.calendar-iocn {
+ position: relative;
+}
+
+button.btn-close {
+ float: right;
+ font-size: 1.5rem;
+ font-weight: 700;
+ line-height: 1;
+ color: #000;
+ text-shadow: 0 1px 0 #fff;
+ opacity: 0.5;
+ border: 0px;
+}
+
+button.btn-close {
+ font-size: 27px;
+ position: absolute;
+ right: 7px;
+ top: 6px;
+ background: #0e2c14;
+ font-weight: bold;
+ color: #fff;
+}
+
+h3#exampleModalLabel {
+ color: #fff;
+ font-size: 30px;
+ text-align: center;
+ background-color: #0e2c14;
+}
+
+.form-group {
+ text-align: center;
+ margin: 10px;
+}
+
+.desktop-view {
+ display: none;
+}
+
+.phone-view {
+ display: block;
+}
+
+.fr-img {
+ padding: 0;
+ overflow: hidden;
+ background-color: #0e2c14;
+}
+
+.fr-img img {
+ max-width: 100%;
+ transition: 0.6s;
+}
+
+.fr-img:hover img {
+ transform: scale(1.1);
+}
+
+.fr-text {
+ background-color: #0e2c14;
+ padding: 25px 60px;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ align-content: center;
+}
+
+.fr-heading {
+ font-size: 41px;
+ margin-bottom: 10px;
+ text-transform: capitalize;
+ color: #fff;
+ line-height: normal;
+ font-family: 'Antic Didone', serif;
+}
+
+.fr-heading a {
+ color: #fff;
+}
+
+.fr-text p {
+ color: #dddddd;
+ font-size: 16px;
+ line-height: 25px;
+ font-weight: normal;
+ letter-spacing: 0.5px;
+ font-family: "Nunito", Arial, sans-serif;
+}
+
+.vm-btn,
+.bn-btn {
+ color: #0e2c14;
+ background-color: #fff;
+ font-size: 15px;
+ letter-spacing: normal;
+ border: none;
+ outline: none;
+ padding: 6px 17px;
+ border: 1px solid #fff;
+ font-weight: normal;
+}
+
+.btn.vm-btn {
+ background-color: transparent;
+ color: #fff;
+ margin-right: 15px;
+}
+
+.fr-item:nth-of-type(2n) .col-md-6.col-lg-6.fr-img {
+ order: 2;
+}
+
+.hero-slider {
+ overflow: hidden;
+}
+
+#ds-slider {
+ padding: 0;
+}
+
+#ds-slider .carousel-indicators button {
+ padding: 4px;
+ border: 1px solid #fff;
+ background: transparent;
+ margin: 15px 8px;
+ border-radius: 100%;
+ width: 12px;
+ height: 12px;
+}
+
+#ds-slider .carousel-indicators button.active {
+ border: 2px solid #0e2c14;
+ background: #0e2c14;
+}
+
+.carousel-item:before {
+ content: "";
+ position: absolute;
+ left: 0;
+ right: 0;
+ top: 0;
+ bottom: 0;
+}
+
+.carousel-caption {
+ position: absolute;
+ left: 0;
+ right: 0;
+ text-align: center;
+ bottom: 30%;
+ z-index: 1;
+}
+
+.carousel-caption h5 {
+ font-weight: 700;
+ color: #fff;
+ font-size: 60px;
+ line-height: 1.2;
+ font-family: "Nunito", Arial, sans-serif;
+}
+
+.carousel-caption p.subheading {
+ text-transform: uppercase;
+ font-weight: 700;
+ color: #fff;
+ font-size: 13px;
+ letter-spacing: 1px;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus {
+ color: #fff;
+ outline: none;
+ border: none;
+ padding-left: 0;
+ margin-top: 26px;
+ border: none;
+ outline: none;
+ box-shadow: none;
+ padding: 0;
+ font-size: 2.6rem;
+ font-weight: normal;
+}
+
+#ds-navbar {
+ background-color: #fff;
+ padding: 15px;
+ border-radius: 2px;
+ margin-top: 10px;
+ position: absolute;
+ left: 0;
+ top: 70px;
+ min-width: 220px;
+ z-index: 1;
+}
+
+#ds-navbar .nav-link {
+ line-height: normal;
+ padding: 4px 0;
+ font-weight: normal;
+ color: #000;
+ font-size: 17px;
+}
+
+button.btn.cs-btn {
+ float: right;
+ color: #fff;
+ background-color: #0e2c14;
+ border: none;
+ outline: none;
+ font-size: 14px;
+ margin-top: 30px;
+ font-weight: normal;
+ height: auto;
+ line-height: normal;
+ display: none;
+}
+
+.language-box {
+ margin-top: 30px;
+ margin-left: 40px;
+}
+
+.language-box select {
+ padding: 6px;
+ outline: none;
+}
+
+.side-bar {
+ position: fixed;
+ left: -300px;
+ top: 0;
+ bottom: 0;
+ z-index: 99;
+ background-color: #0e2c14;
+ width: 300px;
+ padding: 30px;
+ transition: 0.6s;
+}
+
+.side-bar.active {
+ left: 0px;
+}
+
+.close-btn {
+ float: right;
+}
+
+.close-btn span.fa.fa-close {
+ font-size: 30px;
+ color: #fff;
+}
+
+.side-bar .navbar-nav .nav-item .nav-link {
+ color: #fff;
+ transition: 0.6s;
+}
+
+.side-bar .navbar-nav .nav-item .nav-link:hover {
+ font-weight: 600;
+}
+
+.carousel-item img {}
+
+.scroll-problem {
+ overflow-x: unset;
+}
+.site-header.is-sticky button.btn.cs-btn {
+    display: block;
+}
+@media(max-width:991px) {
+ .header-flex {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .toggle-btn {
+     width: 90px;
+ }
+
+ button.navbar-toggler {
+     font-size: 30px;
+ }
+
+ .logo-box {
+     width: 100px;
+ }
+
+ .logo-box img {
+     width: 100%;
+ }
+
+ .button-box {
+     width: 122px;
+     margin-right: 4px;
+     padding: 0px;
+ }
+
+ .flex-class991 {
+     display: flex;
+     margin-top: 30px;
+     margin-bottom: 30px;
+ }
+
+ .two991 {
+     order: 2;
+ }
+
+ .one991 {
+     order: 1;
+ }
+
+ .tab-text-padding {
+     padding: 10px 15px;
+ }
+	.language-box {
+		margin-top: 10px;
+		margin-left: 0;
+	}
+	button.btn.cs-btn{
+		margin-top: 10px;
+		display: block;
+	}
+	.navbar-toggler, .navbar-toggler:focus {margin-top: 15px;}
+	.ftco-section.ftco-no-pb.ftco-no-pt.ftco-booking {
+	    display: none;
+	}
+    .ftco-section.ftco-no-pb.ftco-no-pt.ftco-booking.ph-show {
+        top: auto;
+        bottom: 0;
+    }
+    .ftco-section.ftco-no-pb.ftco-no-pt.ftco-booking.ph-show .close-btn {
+        display: block;
+        margin: 10px auto;
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+    .booking-form .form-group {
+        padding: 1px 15px;
+    }
+    .booking-form .form-group .form-control.btn {
+        padding: 10px 10px !important;
+    }
+}
+
+@media(max-width:767px) {
+ .customer-img::before {
+     width: 100%;
+     right: 0px;
+ }
+
+ .small-icon {
+     width: 180px;
+ }
+
+ .flex-class {
+     display: flex;
+     margin-top: 30px;
+     margin-bottom: 30px;
+ }
+
+ .two {
+     order: 2;
+ }
+
+ .one {
+     order: 1;
+ }
+
+ .carousel-item img {}
+}
+
+/* captcha css */
+
+#captcha_code {
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    margin-top: 17px;
+}
+/* #captcha_box{
+    display: flex;
+} */
+i.btnRefresh {
+    color: #000;
+    margin-top: 15px;
+}
+
+#captcha_code {
+    margin-top: 5px;
+    user-select: none;
+    background: #fff;
+    width: 100%;
+    max-width: 100px;
+    background-color: #0E2C14;
+    padding: 4px;
+    margin-right: 10px;
+    text-align: center;
+    font-weight: 700;
+}
+
+@media(max-width:575px) {
+ .language-box select {
+     padding: 0px !important;
+ }
+
+ .button-box>button {
+     position: fixed;
+     bottom: 0px;
+     right: 0px;
+     left: 0px;
+ }
+
+ .about-us-p {
+     text-align: justify;
+ }
+
+ .mobile-heading {
+     font-size: 31px !important;
+ }
+
+ .mobile-text-padding {
+     padding: 20px 15px !important;
+ }
+
+ .customer-caption {
+     padding: 20px 30px !important;
+ }
+
+ .banner-heading {
+     font-size: 40px !important;
+ }
+
+ .carousel-item img {
+     height: 280px;
+ }
+
+ .section-padding {
+     padding-top: 20px !important;
+ }
+
+ .scroll-problem {
+     overflow-x: unset;
+     padding-top: 35px !important;
+ }
+}
+
+@media(max-width:576px) {
+ .banner-image-issue {
+     width: 100% !important;
+     height: 60vh !important;
+     background-size: cover !important;
+     background-position: center !important;
+     background-image: url(images/room-banner2.jpg);
+     background-size: cover;
+     background-position: center;
+     background-attachment: unset;
+ }
+
+ .hero-wrap.hero-wrap-2 .slider-text {
+     height: 372px !important;
+ }
+}
+
+@media(max-width:480px) {
+ .language-box {
+     margin-top: 16px;
+ }
+
+ .navbar-toggler,
+ .navbar-toggler:focus {
+     margin-top: 14px;
+ }
+}
+
+.nautre-package-slider .item {
+ text-align: center;
+}
+
+.gallery-home-box {
+ max-width: 250px;
+ max-height: 180px;
+ overflow: hidden;
+}
+
+.gallery-home-box img {
+ object-fit: cover !important;
+}
+
+a.header-number {
+ position: relative;
+ left: 60px;
+ bottom: 8px;
+ color: white;
+ font-size: 17px;
+}
+
+span.icon.fa.fa-phone {
+ margin-right: 15px;
+}
+
+@media(max-width:992px) {
+ a.header-number {
+     display: none;
+
+ }
+}
